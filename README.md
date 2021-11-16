@@ -33,7 +33,7 @@ sudo amazon-linux-extras install epel -y
 ```
 aws ecs create-cluster --cluster-name ECS-A-Test
 ```
-2. 在浏览器窗口中打开https://ap-southeast-1.console.aws.amazon.com/ecs/home?region=ap-southeast-1#/clusters/ECS-A-Test/containerInstances，点击Register External Instances
+2. 在浏览器窗口中打开https://ap-southeast-1.console.aws.amazon.com/ecs/home?region=ap-southeast-1#/clusters/ECS-A-Test/containerInstances 点击Register External Instances
 3. 在Step 1: External instance activation details保持默认参数，点击Next step
 4. 在Step 2: Register external instances点击Copy按钮以复制注册命令
 5. 回到Cloud9已经SSH登录新建实例的命令行窗口，运行sudo su，然后粘贴并运行上面步骤中复制的命令
